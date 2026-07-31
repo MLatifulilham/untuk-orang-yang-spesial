@@ -1,53 +1,53 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Page from '@/views/page.vue'
-import Page1 from '@/views/Page1.vue'
-import Page2 from '@/views/Page2.vue'
-import Page3 from '@/views/Page3.vue'
-import Page4 from '@/views/Page4.vue'
-import Page5 from '@/views/Page5.vue'
-import Page6 from '@/views/Page6.vue'
-import Page7 from '@/views/Page7.vue'
-import Page8 from '@/views/Page8.vue'
+import page from '@/views/page.vue'
+import page1 from '@/views/page1.vue'
+import page2 from '@/views/page2.vue'
+import page3 from '@/views/page3.vue'
+import page4 from '@/views/page4.vue'
+import page5 from '@/views/page5.vue'
+import page6 from '@/views/page6.vue'
+import page7 from '@/views/page7.vue'
+import page8 from '@/views/page8.vue'
 
 const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
       path: '/',
-      component: Page
+      component: page
     },
     {
       path: '/page1',
-      component: Page1
+      component: page1
     },
     {
       path: '/page2',
-      component: Page2
+      component: page2
     },
     {
       path: '/page3',
-      component: Page3
+      component: page3
     },
     {
       path: '/page4',
-      component: Page4
+      component: page4
     },
     {
       path: '/page5',
-      component: Page5
+      component: page5
     },
     {
       path: '/page6',
-      component: Page6
+      component: page6
     },
     {
       path: '/page7',
-      component: Page7
+      component: page7
     },
     {
       path: '/page8',
-      component: Page8
+      component: page8
     }
   ]
 })
