@@ -10,12 +10,14 @@
   ],
   "compilerOptions": {
     "composite": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
     "baseUrl": ".",
     "paths": {
       "@/*": [
         "./src/*"
       ]
     },
-    "tsBuildInfoFolder": "node_modules/.tmp/tsconfig.app.tsbuildinfo"
+    "tsBuildInfoFile": "node_modules/.tmp/tsconfig.app.tsbuildinfo"
   }
 }

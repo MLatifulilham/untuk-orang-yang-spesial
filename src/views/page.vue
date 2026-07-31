@@ -58,7 +58,7 @@ function lanjut() {
 
       <div
         v-if="pendingTheme"
-        :key="pendingKey"
+        :key="pendingKey ?? undefined"
         @animationend="onRevealEnd"
         :class="['ripple-reveal absolute z-10 rounded-full will-change-transform', pendingTheme.solid]"
         :style="{

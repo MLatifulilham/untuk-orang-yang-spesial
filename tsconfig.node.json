@@ -4,8 +4,8 @@
   ],
   "compilerOptions": {
     "composite": true,
-    "noEmit": true,
-    "tsBuildInfoFolder": "node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    "emitDeclarationOnly": true,
+    "tsBuildInfoFile": "node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2022",
     "lib": ["ES2023"],
     "module": "ESNext",
