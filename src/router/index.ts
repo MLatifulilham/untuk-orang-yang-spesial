@@ -11,7 +11,7 @@ import page7 from '@/views/page7.vue'
 import page8 from '@/views/page8.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
